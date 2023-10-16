@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+.center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+    }
+
+.cart__content {
+    grid-column: span 12;
+}
+
+.box {
+    column-gap: 29px;
+    row-gap: 39px;
+}
+
+.footer__logo {
+    display: none;
+}
+
+.heading {
+    margin-top: 64px;   
+}
+
+.cart__form {
+    margin: auto;   
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 833px) {
+
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+.product {
+    width: 345px;
+}
+}

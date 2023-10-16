@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+
+    .header {
+        padding-top: 32px;
+    
+        &__input {
+            display: none;
+
+        }
+    }
+    .menu {
+        display: none;
+        &__mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+    .logo {
+        
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .title {
+
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+}
+
+    .box {
+        flex-direction: column;
+            }
+ 
+
+    .top {
+
+    &__text {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__link {
+    font-size: 14px;
+    }
+}
+
+.heading {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 32px;
+   
+}
+
+    .cart__product {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+
+    .product{
+    
+    &-img {
+        grid-column: 1/-1;
+        height: 226px;
+    }
+
+    &__heading {
+        font-size: 18px;
+        line-height: 22px;
+        
+    }
+     
+    &__price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    }
+
+
+
+    .for {
+        
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    
+
+    &__item {
+    grid-column: 1/-1;
+    height: 375px;
+    font-size: 28px;
+    line-height: 34px;
+    }
+
+    &__big {
+        height: 244px;
+    
+}
+}
+.footer{
+
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__content {
+        justify-content: center;
+        gap: 34px;
+ 
+    }
+    &__info {
+        gap: 100px;
+    }
+}
+
+}

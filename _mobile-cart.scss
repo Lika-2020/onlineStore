@@ -1,0 +1,168 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 50px;
+    }
+
+    .header {
+        padding-top: 32px;
+    
+        &__input {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: none;
+        &__mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .logo {
+        
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+      .box {
+            display: flex;
+    justify-content: center;
+    }
+
+    .top {
+
+      &__text {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+      }
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      &__link {
+        font-size: 14px;
+      }
+    }
+
+    .heading {
+       font-size: 24px;
+       line-height: 29px;
+       margin-top: 32px;
+
+       &__big {
+        font-size: 48px;
+        line-height: 59px;
+       }
+   
+    }
+
+    .product {
+
+      &-img {
+        grid-column: 1/-1;
+        height: 226px;
+      }
+
+      &__heading {
+        font-size: 18px;
+        line-height: 22px;
+      }
+     
+      &__price {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .select {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cart {
+      display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+       &__name-box {
+        display: none;
+       }
+    
+       &__img {
+        display: none;
+       }
+
+       &__content {
+        grid-column: 1 / -1;
+        box-sizing: border-box;
+        }
+
+       &__form {
+        grid-column: 1 / -1;
+       }
+
+       &__button_shopping {
+        width: 163px;
+        height: 37px;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        
+       }
+    }
+
+    .checkout {
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    .footer{
+
+       padding-bottom: 32px;
+       flex-direction: column;
+       align-items: center;
+
+      &__content {
+        justify-content: center;
+        gap: 34px;
+       
+      }
+
+      &__info {
+        gap: 100px;
+      }
+    
+      &__form {
+        font-weight: 400;
+      }
+    }
+
+   .form {
+
+      &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        margin-top: 32px;
+      }
+    }
+}

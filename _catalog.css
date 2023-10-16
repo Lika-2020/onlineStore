@@ -1,0 +1,71 @@
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top_catalog {
+  height: 400px;
+  background-image: url(./img/top_catalog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav_box {
+  margin-top: 64px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 64px;
+  margin-bottom: 41px;
+}
+
+.select_form {
+  width: 288px;
+}
+
+.select {
+  height: 41px;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  padding-left: 14px;
+  background-color: transparent;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url(./img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 246px;
+}
+
+.box_nav_link {
+  margin-left: 26px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+.nav_link_cat {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}/*# sourceMappingURL=_catalog.css.map */
